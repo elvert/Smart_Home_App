@@ -7,12 +7,13 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.example.ayaya.ui.kitchen.kitchen;
 
 public class dashboard extends AppCompatActivity {
-    private CardView cardView1;
-    private CardView cardView2;
+    private ImageView bedroom_db;
+    private ImageView kitchen_db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,14 +21,14 @@ public class dashboard extends AppCompatActivity {
 
 
         // Get a reference to the CardView
-        cardView1 = (CardView) findViewById(R.id.bedroom_card);
-        cardView1.setOnClickListener(new View.OnClickListener() {
+        bedroom_db = (ImageView) findViewById(R.id.bedroom_dash);
+        bedroom_db.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {openBedroom();}
         });
 
-        cardView2 = (CardView) findViewById(R.id.kitchencard);
-        cardView2.setOnClickListener(new View.OnClickListener() {
+        kitchen_db = (ImageView) findViewById(R.id.kitchen_dash);
+        kitchen_db.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {openKitchen();}
         });

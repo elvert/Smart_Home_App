@@ -31,8 +31,7 @@
                 android:animationCache="false"
                 android:background="#00679792"
                 android:minHeight="?attr/actionBarSize"
-                android:theme="?attr/actionBarTheme"
-                app:navigationIcon="@drawable/menu" />
+                android:theme="?attr/actionBarTheme" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -162,8 +161,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginStart="9dp"
                         android:layout_marginTop="31dp"
-                        android:layout_marginEnd="10dp"
-                        app:srcCompat="@drawable/lamp" />
+                        android:layout_marginEnd="10dp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -203,8 +201,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginStart="18dp"
                         android:layout_marginTop="30dp"
-                        android:layout_marginEnd="17dp"
-                        app:srcCompat="@drawable/microwave" />
+                        android:layout_marginEnd="17dp" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -229,8 +226,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="36dp"
-                        android:layout_marginEnd="8dp"
-                        app:srcCompat="@drawable/refrigerator" />
+                        android:layout_marginEnd="8dp" />
 
                     <TextView
                         android:id="@+id/textView4"
@@ -250,8 +246,7 @@
                     <ImageView
                         android:id="@+id/imageView8"
                         android:layout_width="24dp"
-                        android:layout_height="27dp"
-                        app:srcCompat="@drawable/thermometer" />
+                        android:layout_height="27dp" />
 
                     <TextView
                         android:id="@+id/textView10"
@@ -279,8 +274,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.875"
             app:layout_constraintStart_toEndOf="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
-            app:srcCompat="@drawable/power" />
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
         <TextView
             android:id="@+id/textView9"

@@ -20,34 +20,17 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/KitchenTab"
-                android:layout_width="119dp"
-                android:layout_height="37dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginEnd="33dp"
-                android:layout_marginBottom="8dp"
-                android:fontFamily="@font/baloo"
-                android:text="Kitchen"
-                android:textSize="28sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                tools:layout_editor_absoluteY="7dp" />
 
             <TextView
                 android:id="@+id/BedroomTab"
-                android:layout_width="119dp"
-                android:layout_height="37dp"
-                android:layout_alignParentBottom="true"
-                android:layout_marginEnd="37dp"
-                android:layout_marginBottom="8dp"
-                android:layout_toStartOf="@+id/KitchenTab"
-                android:layout_toEndOf="@+id/toolbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="2dp"
                 android:fontFamily="@font/baloo"
                 android:text="Bedroom"
                 android:textColor="#CDB99C"
-                android:textSize="28sp"
+                android:textSize="40sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -62,8 +45,7 @@
                 android:animationCache="false"
                 android:background="#00679792"
                 android:minHeight="?attr/actionBarSize"
-                android:theme="?attr/actionBarTheme"
-                app:navigationIcon="@drawable/menu" />
+                android:theme="?attr/actionBarTheme" />
 
 
         </RelativeLayout>
@@ -79,8 +61,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
-            app:srcCompat="@drawable/bedroom_jpeg" />
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -148,8 +129,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginStart="9dp"
                         android:layout_marginTop="31dp"
-                        android:layout_marginEnd="10dp"
-                        app:srcCompat="@drawable/lamp" />
+                        android:layout_marginEnd="10dp" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -189,8 +169,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginStart="18dp"
                         android:layout_marginTop="30dp"
-                        android:layout_marginEnd="17dp"
-                        app:srcCompat="@drawable/airconditioner" />
+                        android:layout_marginEnd="17dp" />
 
                     <ImageView
                         android:id="@+id/imageView4"
@@ -201,8 +180,7 @@
                         android:layout_alignParentBottom="true"
                         android:layout_marginStart="44dp"
                         android:layout_marginEnd="47dp"
-                        android:layout_marginBottom="56dp"
-                        app:srcCompat="@drawable/thermometer" />
+                        android:layout_marginBottom="56dp" />
 
                     <TextView
                         android:id="@+id/textView13"
@@ -243,8 +221,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginStart="9dp"
                         android:layout_marginTop="35dp"
-                        android:layout_marginEnd="9dp"
-                        app:srcCompat="@drawable/fan" />
+                        android:layout_marginEnd="9dp" />
 
                     <TextView
                         android:id="@+id/textView4"
@@ -308,8 +285,7 @@
             android:layout_marginEnd="24dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView"
-            app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
-            app:srcCompat="@drawable/power" />
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
 
         <TextView
             android:id="@+id/textView9"
