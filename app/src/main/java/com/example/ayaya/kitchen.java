@@ -1,4 +1,4 @@
-package com.example.ayaya.ui.kitchen;
+package com.example.ayaya;
 
 import androidx.appcompat.app.AppCompatActivity;
 

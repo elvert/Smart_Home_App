@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Ayaya"
         tools:targetApi="31">
         <activity
-            android:name=".ui.kitchen.kitchen"
+            android:name=".kitchen"
             android:exported="false" />
         <activity
             android:name=".bedroom"
