@@ -228,13 +228,7 @@
                     android:id="@+id/check_log"
                     android:layout_width="match_parent"
                     android:layout_height="66dp"
-                    android:text="Button" />
-
-                <Button
-                    android:id="@+id/button5"
-                    android:layout_width="match_parent"
-                    android:layout_height="66dp"
-                    android:text="Button" />
+                    android:text="Door Log" />
 
                 <EditText
                     android:id="@+id/editTextTextPersonName6"
