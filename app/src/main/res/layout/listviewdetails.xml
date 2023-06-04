@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Cardnum_li"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:text="Card Number : "
+        android:textSize="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/Status_li"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:text="Status : "
+        android:textSize="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/Cardnum"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:text="Card_ID"
+        android:textSize="20dp"
+        android:layout_toEndOf="@id/Cardnum_li"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:text="Status"
+        android:textSize="20dp"
+        android:layout_toEndOf="@id/Status_li"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/Tanggal_li"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:text="Tanggal : "
+        android:textSize="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/Tanggal"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:text="Tanggal"
+        android:textSize="20dp"
+        android:layout_toEndOf="@id/Tanggal_li"
+        android:layout_marginTop="100dp" />
+</RelativeLayout>

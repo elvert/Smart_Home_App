@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Ayaya"
         tools:targetApi="31">
         <activity
+            android:name=".doorlock"
+            android:exported="false" />
+        <activity
+            android:name=".livingroom"
+            android:exported="false" />
+        <activity
+            android:name=".doorlock_log"
+            android:exported="false" />
+        <activity
             android:name=".kitchen"
             android:exported="false" />
         <activity
